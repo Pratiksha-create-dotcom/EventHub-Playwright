@@ -13,7 +13,7 @@ use: {
     },
 
 //Configure retries with a simple value such as 0 or 1
-retries:1,
+//retries:1,
 
  
 
@@ -26,15 +26,16 @@ use:{
         }
 },
         
-{ name: 'firefox',
-use:{
+//**{ name: 'firefox',
+//use:{
          
         
       
-      ...devices["Desktop Firefox"]
+    //  ...devices["Desktop Firefox"]
 
       
        
 
-    },},],
+    //},},
+   ],
 });
